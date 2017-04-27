@@ -1,17 +1,13 @@
 # Analytics
 
-[![CI Status](http://img.shields.io/travis/segment-integrations/analytics-ios-integration-facebook-app-events.svg?style=flat)](https://travis-ci.org/segment-integrations/analytics-ios-integration-facebook-app-events)
-[![Version](https://img.shields.io/cocoapods/v/Segment-Facebook-App-Events.svg?style=flat)](http://cocoapods.org/pods/Segment-Facebook-App-Events)
-[![License](https://img.shields.io/cocoapods/l/Segment-Facebook-App-Events.svg?style=flat)](http://cocoapods.org/pods/Segment-Facebook-App-Events)
-
 Facebook App Events integration for analytics-ios.
 
 ## Installation
 
-To install the Segment-Facebook App Events integration, simply add this line to your [CocoaPods](http://cocoapods.org) `Podfile`:
+To install the Astronomer-Facebook App Events integration, simply add this line to your [CocoaPods](http://cocoapods.org) `Podfile`:
 
 ```ruby
-pod "Segment-Facebook-App-Events"
+pod "Astronomer-Facebook-App-Events"
 ```
 
 ## Usage
@@ -19,14 +15,14 @@ pod "Segment-Facebook-App-Events"
 After adding the dependency, you must register the integration with our SDK.  To do this, import the Facebook App Events integration in your `AppDelegate`:
 
 ```
-#import <Segment-Facebook-App-Events/SEGFacebookAppEventsIntegrationFactory.h>
+#import <Astronomer-Facebook-App-Events/SEGFacebookAppEventsIntegrationFactory.h>
 ```
 
 And add the following lines:
 
 ```
 NSString *const SEGMENT_WRITE_KEY = @" ... ";
-SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:SEGMENT_WRITE_KEY];
+SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:ASTRONOMER_APP_ID];
 
 [config use:[SEGFacebookAppEventsIntegrationFactory instance]];
 
