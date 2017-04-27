@@ -21,7 +21,7 @@ After adding the dependency, you must register the integration with our SDK.  To
 And add the following lines:
 
 ```
-NSString *const SEGMENT_WRITE_KEY = @" ... ";
+NSString *const ASTRONOMER_APP_ID = @" ... ";
 SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:ASTRONOMER_APP_ID];
 
 [config use:[SEGFacebookAppEventsIntegrationFactory instance]];
@@ -46,7 +46,7 @@ WWWWWW||WWWWWW
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Segment, Inc.
+Copyright (c) 2016 Astronomer, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

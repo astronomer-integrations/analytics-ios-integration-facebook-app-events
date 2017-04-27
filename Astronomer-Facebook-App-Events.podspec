@@ -12,9 +12,8 @@ Pod::Spec.new do |s|
 
   s.homepage         = "http://astronomer.io/"
   s.license          =  { :type => 'MIT' }
-  s.author           = { "Segment" => "friends@segment.com" }
+  s.author           = { "Astronomer" => "hello@astronomer.io" }
   s.source           = { :git => "https://github.com/astronomer-integrations/analytics-ios-integration-facebook-app-events.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/segment'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
