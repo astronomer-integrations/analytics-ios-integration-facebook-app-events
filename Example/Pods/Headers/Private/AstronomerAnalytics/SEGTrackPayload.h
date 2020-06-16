@@ -1,1 +1,0 @@
-../../../AstronomerAnalytics/Analytics/Classes/Integrations/SEGTrackPayload.h

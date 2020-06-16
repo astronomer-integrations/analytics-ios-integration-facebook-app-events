@@ -1,1 +1,0 @@
-../../../AstronomerAnalytics/Analytics/Classes/Internal/SEGSegmentIntegration.h

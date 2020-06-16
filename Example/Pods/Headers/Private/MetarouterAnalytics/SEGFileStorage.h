@@ -1,0 +1,1 @@
+../../../MetarouterAnalytics/Analytics/Classes/Internal/SEGFileStorage.h

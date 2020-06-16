@@ -7,7 +7,7 @@
 //
 
 #import "SEGAppDelegate.h"
-#import <AstronomerAnalytics/SEGAnalytics.h>
+#import <MetarouterAnalytics/SEGAnalytics.h>
 #import <Astronomer-Facebook-App-Events/SEGFacebookAppEventsIntegrationFactory.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 @implementation SEGAppDelegate
@@ -16,7 +16,7 @@
 {
     // Override point for customization after application launch.
     [SEGAnalytics debug:YES];
-    SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:@"mti5N6FyJ2xd3wgKT"];
+    SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:@"RGkmebZrqsjvNpF5z8jT6"];
     
     // Add any of your bundled integrations.
     [config use:[SEGFacebookAppEventsIntegrationFactory instance]];

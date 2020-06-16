@@ -1,0 +1,1 @@
+../../../MetarouterAnalytics/Analytics/Classes/SEGAnalyticsConfiguration.h

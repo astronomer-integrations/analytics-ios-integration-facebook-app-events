@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Astronomer-Facebook-App-Events"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "Facebook App Events Integration for Astronomer's analytics-ios library."
 
   s.description      = <<-DESC
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.dependency 'AstronomerAnalytics', '~> 3.0'
-  s.dependency 'FBSDKCoreKit', '~> 4.15'
+  s.dependency 'MetarouterAnalytics', '3.8.0-beta.3'
+  s.dependency 'FBSDKCoreKit', '~> 7.0'
 
   s.pod_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 end

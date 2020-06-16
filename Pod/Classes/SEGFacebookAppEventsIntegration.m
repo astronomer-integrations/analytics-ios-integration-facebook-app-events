@@ -1,6 +1,6 @@
 #import "SEGFacebookAppEventsIntegration.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <AstronomerAnalytics/SEGAnalyticsUtils.h>
+#import <MetarouterAnalytics/SEGAnalyticsUtils.h>
 
 @implementation SEGFacebookAppEventsIntegration
 
